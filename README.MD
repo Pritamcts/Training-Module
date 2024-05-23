@@ -107,31 +107,24 @@ This project is a chat-bot built using Django, Pinecone vector database, OpenAI,
 
 ## Project Structure
 TrainingModule/
-│
-├── Training/ # Django app for the chat-bot backend
-│ ├── migrations/ # Database migrations
-│ ├── models.py # Database models
-│ ├── views.py # Django views
-│ ├── urls.py # URL configurations
-│ ├── process/ # Folder containing processing files
-│ └── ...
-│
-├── TrainingModule/ # Django project folder
-│ ├── init.py
-│ ├── settings.py
-│ ├── urls.py
-│ ├── wsgi.py
-│ └── ...
-│
-├── backend.py # Flask backend script
-│
-├── trainingFE.py # Streamlit frontend script
-│
-├── config-dev.json # Configuration file for API keys
-│
-├── requirements.txt # Python dependencies
-│
-└── manage.py # Django management script
+├── Training/                # Django app for the chat-bot backend
+│   ├── migrations/          # Database migrations
+│   ├── models.py            # Database models
+│   ├── views.py             # Django views
+│   ├── urls.py              # URL configurations
+│   ├── process/             # Folder containing processing files
+│   └── ...
+├── TrainingModule/          # Django project folder
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── ...
+├── backend.py               # Flask backend script
+├── trainingFE.py            # Streamlit frontend script
+├── config-dev.json          # Configuration file for API keys
+├── requirements.txt         # Python dependencies
+└── manage.py                # Django management script
 
 ## Contributing
 
