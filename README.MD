@@ -106,6 +106,7 @@ This project is a chat-bot built using Django, Pinecone vector database, OpenAI,
     Open your web browser and go to `http://localhost:8501` to access the Streamlit UI and start interacting with the chat-bot.
 
 ## Project Structure
+
 TrainingModule/
 ├── Training/                # Django app for the chat-bot backend
 │   ├── migrations/          # Database migrations
