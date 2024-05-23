@@ -1,0 +1,6 @@
+trainigVenv/
+TrainingModule/.vscode/
+TrainingModule/Training/process/__pycache__/
+TrainingModule/TrainingModule/config-dev.json
+TrainingModule/django_info.log
+TrainingModule/TrainingModule/config-dev.json
