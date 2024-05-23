@@ -1,4 +1,4 @@
-<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="ChatBot_Project_0"></a>Chat-Bot Project</h1>
+<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="TrainingModule_0"></a>TrainingModule</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="3">This project is a chat-bot built using Django, Pinecone vector database, OpenAI, and LangChain. The user interface is implemented using Streamlit. The chat-bot leverages a custom knowledge base to provide responses.</p>
 <h2 class="code-line" data-line-start=4 data-line-end=5 ><a id="Features_4"></a>Features</h2>
 <ul>
@@ -112,22 +112,22 @@ Open your web browser and go to <code>http://localhost:8501</code> to access the
 <p class="has-line-data" data-line-start="109" data-line-end="128">TrainingModule/<br>
 ├── Training/                # Django app for the chat-bot backend<br>
 │   ├── migrations/          # Database migrations<br>
-│   ├── <a href="http://models.py">models.py</a>            # Database models<br>
-│   ├── <a href="http://views.py">views.py</a>             # Django views<br>
-│   ├── <a href="http://urls.py">urls.py</a>              # URL configurations<br>
+│   ├── models.py            # Database models<br>
+│   ├── views.py             # Django views<br>
+│   ├── urls.py              # URL configurations<br>
 │   ├── process/             # Folder containing processing files<br>
 │   └── …<br>
 ├── TrainingModule/          # Django project folder<br>
 │   ├── <strong>init</strong>.py<br>
-│   ├── <a href="http://settings.py">settings.py</a><br>
-│   ├── <a href="http://urls.py">urls.py</a><br>
-│   ├── <a href="http://wsgi.py">wsgi.py</a><br>
+│   ├── settings.py
+│   ├── urls.py<br>
+│   ├── wsgi.py<br>
 │   └── …<br>
-├── <a href="http://backend.py">backend.py</a>               # Flask backend script<br>
-├── <a href="http://trainingFE.py">trainingFE.py</a>            # Streamlit frontend script<br>
+├── backend.py               # Flask backend script<br>
+├── trainingFE.py            # Streamlit frontend script<br>
 ├── config-dev.json          # Configuration file for API keys<br>
 ├── requirements.txt         # Python dependencies<br>
-└── <a href="http://manage.py">manage.py</a>                # Django management script</p>
+└── manage.py                # Django management script</p>
 <h2 class="code-line" data-line-start=129 data-line-end=130 ><a id="Contributing_129"></a>Contributing</h2>
 <p class="has-line-data" data-line-start="131" data-line-end="132">If you would like to contribute to this project, please follow these steps:</p>
 <ol>
